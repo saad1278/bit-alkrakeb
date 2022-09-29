@@ -1,0 +1,277 @@
+body
+
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    direction: rtl;
+    
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background: #808080;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    min-height: 60px;
+    border-bottom: #ccc 5px solid;
+}
+
+header a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: right;
+}
+ .h1b
+ {
+    
+    color: #000000;
+
+ }
+ header nav
+ {
+     float: left;
+     margin-top: 10px;
+ }
+ header .saad a
+ {
+     color: #ffffff;
+     
+     display: inline;
+ }
+ header nav a:hover
+ {
+     color: #cccccc;
+     font-weight: bold;
+    font-size: 20px;
+    
+
+ }
+ #showcase
+ {
+     min-height: 450px;
+     background: url("saad11.jpg") no-repeat center;
+     background-size:auto;
+    
+ }
+ #newsletter
+ {
+     padding: 15px;
+     color: #ffffff;
+     background: #353637;
+ }
+ #newsletter h1
+{
+     float: right;
+ }
+ 
+#boxes
+{
+    margin-top: 20px;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 80%;
+    padding: 60px;
+}
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(41, 41, 41);
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ph{
+    direction: ltr;
+}
+@media(max-width:768px)
+{
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    
+    
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    .h1{
+        display: block;
+    }
+    .img3{
+        display: none;
+    }
+    
+    
+}
+.img3{
+    padding-right: 20px;
+}
+.games{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 13px;
+    text-align: center;
+}   
+
+
+img{
+    width :300px;
+    height: 300px;
+    
+}
+.imgqr{
+    
+    display: flex;
+}
+
+.img2{
+    padding-right: 40px; 
+    
+}
+.stand{
+    display: flex;
+}
+.i22{
+    padding-right: 20px;
+}
+
+.elc{
+    display: flex;
+}
+.i33{
+    padding-right: 40px;
+}
+img:hover {
+    
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+        box-shadow: 10px 10px 5px #888888;
+      }
+.atag{
+    color: #353637;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+        
+
+
+
+.btn1 img{
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    
+    font-size: 18px;
+    
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+
+        ul#menu {
+            list-style: none;
+            
+        }
+
+        ul#menu li {
+            margin: 5px 0;
+            opacity: 0;
+            transition: 0.5s all cubic-bezier(0.31,-0.105,0.43,1.4);
+        }
+
+        ul#menu li:nth-child(even) {
+            transform: translateX(50px);
+        }
+
+        ul#menu li:nth-child(odd) {
+            transform: translateX(-50px);
+        }
+
+        ul#menu li:nth-child(1) {
+            transition-delay: 0.1s;
+        }
+
+        ul#menu li:nth-child(2) {
+            transition-delay: 0.2s;
+        }
+
+        ul#menu li:nth-child(3) {
+            transition-delay: 0.3s;
+        }
+
+        ul#menu li:nth-child(4) {
+            transition-delay: 0.4s;
+        }
+
+        ul#menu.active li {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+
+        ul#menu li a {
+            
+            display: block;
+            padding: 8px 20px;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        .menuimg{
+            margin: auto;
+        }
+        .minu{
+            display: flex;
+            flex-direction:row;
+            justify-content: right;
+            
+        }
+        .minu h1{
+            margin: 10px;
+        }
+        .bra{
+            display: flex;
+            justify-content: center;
+        }
