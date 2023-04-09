@@ -1,0 +1,30 @@
+body{
+    font-style: italic;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    color: #d76666;
+}
+a{
+    color: #d76666;
+    font-family:Monospace;
+    font-size: 20px;
+    cursor:pointer;
+    font-weight:600;
+    line-height: 20px;
+  text-decoration:none
+}
+image{
+    margin: 0;
+    padding: 0;
+    size: 30px;
+
+}
+.mka{
+    size:40px;
+}
